@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65B3AE0F-D23D-4286-A6CB-FB9D5A874677}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NhaHang</RootNamespace>
+    <AssemblyName>NhaHang</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.NonGeneric, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.NonGeneric.4.3.0\lib\net46\System.Collections.NonGeneric.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Common.4.3.0\lib\net451\System.Data.Common.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\AddAccout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\AddAccout.Designer.cs">
+      <DependentUpon>AddAccout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\Log_In_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\Log_In_Form.Designer.cs">
+      <DependentUpon>Log_In_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface\MainFormStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface\MainFormStaff.Designer.cs">
+      <DependentUpon>MainFormStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\GiamGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\GiamGia.Designer.cs">
+      <DependentUpon>GiamGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\KHDatphong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\KHDatphong.Designer.cs">
+      <DependentUpon>KHDatphong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\ThongTinPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\ThongTinPhong.Designer.cs">
+      <DependentUpon>ThongTinPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\TraPhongThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\TraPhongThanhToan.Designer.cs">
+      <DependentUpon>TraPhongThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\UpdateCus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\UpdateCus.Designer.cs">
+      <DependentUpon>UpdateCus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>myDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MY_DB.cs" />
+    <Compile Include="KhachSan\DatMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\DatMon.Designer.cs">
+      <DependentUpon>DatMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\Doanh_Thu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\Doanh_Thu.Designer.cs">
+      <DependentUpon>Doanh_Thu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\NguyenLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\NguyenLieu.Designer.cs">
+      <DependentUpon>NguyenLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\NhaBep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\NhaBep.Designer.cs">
+      <DependentUpon>NhaBep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\NhaBepClass.cs" />
+    <Compile Include="KhachSan\NhaHangClass.cs" />
+    <Compile Include="KhachSan\QLBanTrong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\QLBanTrong.Designer.cs">
+      <DependentUpon>QLBanTrong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\QLMon.cs" />
+    <Compile Include="KhachSan\QuanLyBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\QuanLyBan.Designer.cs">
+      <DependentUpon>QuanLyBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\QuanLyMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\QuanLyMon.Designer.cs">
+      <DependentUpon>QuanLyMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\ThanhToan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\ThanhToan.Designer.cs">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\TinhTien.cs" />
+    <Compile Include="KhachSan\TKDoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\TKDoanhThu.Designer.cs">
+      <DependentUpon>TKDoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KhachSan\TKLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KhachSan\TKLuong.Designer.cs">
+      <DependentUpon>TKLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu\CustomerClass.cs" />
+    <Compile Include="NhanSu\DangKyKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu\DangKyKhachHang.Designer.cs">
+      <DependentUpon>DangKyKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu\Luong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu\Luong.Designer.cs">
+      <DependentUpon>Luong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu\QLCaLam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu\QLCaLam.Designer.cs">
+      <DependentUpon>QLCaLam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu\QuanLyKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu\QuanLyKhachHang.Designer.cs">
+      <DependentUpon>QuanLyKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu\QuanLyNhanSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu\QuanLyNhanSu.Designer.cs">
+      <DependentUpon>QuanLyNhanSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu\StaffClass.cs" />
+    <Compile Include="NhanSu\ThayDoiCa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu\ThayDoiCa.Designer.cs">
+      <DependentUpon>ThayDoiCa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Interface\AddAccout.resx">
+      <DependentUpon>AddAccout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\Log_In_Form.resx">
+      <DependentUpon>Log_In_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface\MainFormStaff.resx">
+      <DependentUpon>MainFormStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\DatMon.resx">
+      <DependentUpon>DatMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\Doanh_Thu.resx">
+      <DependentUpon>Doanh_Thu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\GiamGia.resx">
+      <DependentUpon>GiamGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\KHDatphong.resx">
+      <DependentUpon>KHDatphong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\NguyenLieu.resx">
+      <DependentUpon>NguyenLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\NhaBep.resx">
+      <DependentUpon>NhaBep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\QLBanTrong.resx">
+      <DependentUpon>QLBanTrong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\QuanLyBan.resx">
+      <DependentUpon>QuanLyBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\QuanLyMon.resx">
+      <DependentUpon>QuanLyMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\ThanhToan.resx">
+      <DependentUpon>ThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\ThongTinPhong.resx">
+      <DependentUpon>ThongTinPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\TKDoanhThu.resx">
+      <DependentUpon>TKDoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\TKLuong.resx">
+      <DependentUpon>TKLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\TraPhongThanhToan.resx">
+      <DependentUpon>TraPhongThanhToan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachSan\UpdateCus.resx">
+      <DependentUpon>UpdateCus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu\DangKyKhachHang.resx">
+      <DependentUpon>DangKyKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu\Luong.resx">
+      <DependentUpon>Luong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu\QLCaLam.resx">
+      <DependentUpon>QLCaLam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu\QuanLyKhachHang.resx">
+      <DependentUpon>QuanLyKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu\QuanLyNhanSu.resx">
+      <DependentUpon>QuanLyNhanSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu\ThayDoiCa.resx">
+      <DependentUpon>ThayDoiCa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDataSet.xsc">
+      <DependentUpon>myDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>myDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="myDBDataSet.xss">
+      <DependentUpon>myDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_bed_room_sleep_furniture_icon_124423.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed_icon_149738.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filled_single-room_icon-icons.com_59373.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

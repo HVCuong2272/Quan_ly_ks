@@ -1,0 +1,117 @@
+C:\Users\Asus\Desktop\NhaHang\NhaHang\bin\Debug\NhaHang.exe.config
+C:\Users\Asus\Desktop\NhaHang\NhaHang\bin\Debug\NhaHang.exe
+C:\Users\Asus\Desktop\NhaHang\NhaHang\bin\Debug\NhaHang.pdb
+C:\Users\Asus\Desktop\NhaHang\NhaHang\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Desktop\NhaHang\NhaHang\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\NhaHang\NhaHang\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Desktop\NhaHang\NhaHang\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.Interface.AddAccout.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.Interface.Log_In_Form.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.Interface.MainForm.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.Interface.MainFormStaff.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.DatMon.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.Doanh_Thu.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.KhachSan.KHDatphong.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.NguyenLieu.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.NhaBep.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.QLBanTrong.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.QuanLyBan.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.QuanLyMon.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.ThanhToan.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.TKDoanhThu.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhaHang.TKLuong.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhanSu.DangKyKhachHang.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhanSu.Luong.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhanSu.QLCaLam.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhanSu.QuanLyKhachHang.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhanSu.QuanLyNhanSu.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.NhanSu.ThayDoiCa.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.Properties.Resources.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\KhachSan.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\KhachSan.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\KhachSan.csproj.CopyComplete
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.exe
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.pdb
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\KhachSan.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.KhachSan.UpdateCus.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.KhachSan.ThongTinPhong.resources
+C:\Users\Asus\Desktop\NhaHang\NhaHang\obj\Debug\NhaHang.KhachSan.TraPhongThanhToan.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\bin\Debug\NhaHang.exe.config
+C:\Users\Asus\Desktop\Khach san\NhaHang\bin\Debug\NhaHang.exe
+C:\Users\Asus\Desktop\Khach san\NhaHang\bin\Debug\NhaHang.pdb
+C:\Users\Asus\Desktop\Khach san\NhaHang\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Desktop\Khach san\NhaHang\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\Khach san\NhaHang\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Desktop\Khach san\NhaHang\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\KhachSan.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.Interface.AddAccout.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.Interface.Log_In_Form.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.Interface.MainForm.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.Interface.MainFormStaff.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.DatMon.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.Doanh_Thu.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.GiamGia.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.KHDatphong.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.NguyenLieu.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.NhaBep.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.QLBanTrong.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.QuanLyBan.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.QuanLyMon.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.ThanhToan.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.ThongTinPhong.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.TKDoanhThu.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.TKLuong.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.TraPhongThanhToan.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.UpdateCus.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.DangKyKhachHang.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.Luong.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.QLCaLam.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.QuanLyKhachHang.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.QuanLyNhanSu.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.ThayDoiCa.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.Properties.Resources.resources
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\KhachSan.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\KhachSan.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\KhachSan.csproj.CopyComplete
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.exe
+C:\Users\Asus\Desktop\Khach san\NhaHang\obj\Debug\NhaHang.pdb
+D:\HK  II 2020 2021\win\Khach san\NhaHang\bin\Debug\NhaHang.exe.config
+D:\HK  II 2020 2021\win\Khach san\NhaHang\bin\Debug\NhaHang.exe
+D:\HK  II 2020 2021\win\Khach san\NhaHang\bin\Debug\NhaHang.pdb
+D:\HK  II 2020 2021\win\Khach san\NhaHang\bin\Debug\EntityFramework.dll
+D:\HK  II 2020 2021\win\Khach san\NhaHang\bin\Debug\EntityFramework.SqlServer.dll
+D:\HK  II 2020 2021\win\Khach san\NhaHang\bin\Debug\EntityFramework.xml
+D:\HK  II 2020 2021\win\Khach san\NhaHang\bin\Debug\EntityFramework.SqlServer.xml
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.Interface.AddAccout.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.Interface.Log_In_Form.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.Interface.MainForm.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.Interface.MainFormStaff.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.DatMon.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.Doanh_Thu.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.GiamGia.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.KHDatphong.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.NguyenLieu.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.NhaBep.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.QLBanTrong.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.QuanLyBan.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.QuanLyMon.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.ThanhToan.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.ThongTinPhong.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.TKDoanhThu.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhaHang.TKLuong.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.TraPhongThanhToan.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.KhachSan.UpdateCus.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.DangKyKhachHang.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.Luong.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.QLCaLam.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.QuanLyKhachHang.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.QuanLyNhanSu.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.NhanSu.ThayDoiCa.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.Properties.Resources.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\KhachSan.csproj.GenerateResource.cache
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\KhachSan.csproj.CoreCompileInputs.cache
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\KhachSan.csproj.CopyComplete
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.exe
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.pdb
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\NhaHang.test.resources
+D:\HK  II 2020 2021\win\Khach san\NhaHang\obj\Debug\KhachSan.csproj.AssemblyReference.cache

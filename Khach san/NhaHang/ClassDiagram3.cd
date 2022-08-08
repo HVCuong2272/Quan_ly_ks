@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NhaHang.DataSet1" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.MY_DB" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAABAQAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MY_DB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.Program" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.Interface.AddAccout" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgABIAAAACAAABEAAICAAEACAAgAgAAAABAAAABAgAI=</HashCode>
+      <FileName>Interface\AddAccout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.Interface.Log_In_Form" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIIAQLAaAABhAEAICIAAACAAAYEAAAAGAAAQABEAA=</HashCode>
+      <FileName>Interface\Log_In_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.Interface.MainForm" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Bw2YJjACECiAGQhkAJGC0ERGoCCCAACgAAyzAJFAABA=</HashCode>
+      <FileName>Interface\MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.Interface.MainFormStaff" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgQIhACECgAEQAAAICCQABCgACCAACgAAgAABBAAAA=</HashCode>
+      <FileName>Interface\MainFormStaff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.DatMon" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4CUUaUQARSwUQBBDDgDkDAJGCPg4MQJIEHkIIkAcCEA=</HashCode>
+      <FileName>KhachSan\DatMon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.Doanh_Thu" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KhachSan\Doanh_Thu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.NguyenLieu" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAgCAACACEggAQWAICkQAACEBgAIYAAIDAAAgAAFCA=</HashCode>
+      <FileName>KhachSan\NguyenLieu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.NhaBep" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAEAAEAAACAFAAQAAACAAAHCHbgABCAAACgAAAAAAAA=</HashCode>
+      <FileName>KhachSan\NhaBep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.NhaBepClass" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAAAAAAAAAAAAAAAMBAAFCAAAAAAAAAAAAQE=</HashCode>
+      <FileName>KhachSan\NhaBepClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.NhaHangClass" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBwDAMAAQAAIAIAIIkEAAAIDAAAAIAAABAAEAE=</HashCode>
+      <FileName>KhachSan\NhaHangClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.QLBanTrong" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FYBABEgEACggAlAAgASagTSCAIuBAJIAJLjUE1EAECg=</HashCode>
+      <FileName>KhachSan\QLBanTrong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.QLMon" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBACAIAAAAAAAAAAAAEAACACAAAAAAAAAAAEAA=</HashCode>
+      <FileName>KhachSan\QLMon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.QuanLyBan" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>dIBAAEQExikgAlACCESyBCCCAMsjMJIAJPBCE1EoAQg=</HashCode>
+      <FileName>KhachSan\QuanLyBan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.QuanLyMon" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAEOCAEAByARQBECAgHFCAAGCCgEIAFIACUAACAMGAA=</HashCode>
+      <FileName>KhachSan\QuanLyMon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.ThanhToan" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAREAQQAACAIBBBBCACEBAgHAAgkAIAAAR4AAAAAIEA=</HashCode>
+      <FileName>KhachSan\ThanhToan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.TinhTien" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAEAA=</HashCode>
+      <FileName>KhachSan\TinhTien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.TKDoanhThu" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAEABBAAACAAAACAJAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KhachSan\TKDoanhThu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhaHang.TKLuong" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAACAIAACAAgAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>KhachSan\TKLuong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.KhachSan.KHDatphong" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACEAABACAACgAAACAIAAIAAAABIAAgAgAQA=</HashCode>
+      <FileName>KhachSan\KHDatphong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.KhachSan.ThongTinPhong" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wAQAAAAAKAEgRIAEACAEEEaAgo4iCAISXiCCQD/ARA=</HashCode>
+      <FileName>KhachSan\ThongTinPhong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.KhachSan.TraPhongThanhToan" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cCQEASAABCAIBBADgACEBAhHAIgEAAAAEAAAAAAIIAA=</HashCode>
+      <FileName>KhachSan\TraPhongThanhToan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.KhachSan.UpdateCus" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAQBACBAADAUAIGgFAACAAgAEABAABAAAABCBCA=</HashCode>
+      <FileName>KhachSan\UpdateCus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.CustomerClass" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAABAAAAAAAAAAAAAAAAEAQAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NhanSu\CustomerClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.DangKyKhachHang" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAJIAQBACBAADAUAIGgHAACAAAAEABAABABAgBCACA=</HashCode>
+      <FileName>NhanSu\DangKyKhachHang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.Luong" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wiAABQQABCAAABACAACAIABCAAgAAAAAEAAAAIAAAAA=</HashCode>
+      <FileName>NhanSu\Luong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.QLCaLam" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCgAAAQAACQAQAACAAHAIABCQBgAAEAAECAAAAAAAAI=</HashCode>
+      <FileName>NhanSu\QLCaLam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.QuanLyKhachHang" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aAAJAAQBwCBAADQUAIGoFAACAAggEABAADAAAgCCCCA=</HashCode>
+      <FileName>NhanSu\QuanLyKhachHang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.QuanLyNhanSu" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YBChAAAR4iCAOAAQABHiFgAWAEgAEAEAADAAAgAACSA=</HashCode>
+      <FileName>NhanSu\QuanLyNhanSu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.StaffClass" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAABAAAQAgFggAAACQgAEAAAAAABAQAAAAAAAAAA=</HashCode>
+      <FileName>NhanSu\StaffClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.NhanSu.ThayDoiCa" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCAAAAQAACQAQhAAAACAIABCQAgAAAAAEDAAAAAAgAI=</HashCode>
+      <FileName>NhanSu\ThayDoiCa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAABCAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhaHang.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
